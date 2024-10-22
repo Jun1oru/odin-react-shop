@@ -1,0 +1,19 @@
+@import '../../styles/variables.css';
+
+.main,
+.mainLoading {
+    background-color: var(--pink);
+
+    flex: auto;
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.mainLoading {
+    justify-content: center;
+}

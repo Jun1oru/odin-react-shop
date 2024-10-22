@@ -1,0 +1,100 @@
+@import '../../../styles/variables.css';
+
+.item {
+    flex: auto;
+    max-width: 80%;
+
+    background-color: var(--black);
+    color: var(--orange);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.h1 {
+    font-size: 1rem;
+    text-align: center;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: justify;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: var(--pink);
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* .button,
+.input {
+    height: 2rem;
+    border: none;
+    box-shadow: 0px 0px 5px 1px var(--green);
+    background-color: var(--green);
+    color: var(--black);
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.button {
+    width: 2rem;
+}
+
+.input {
+    width: 5rem;
+    color: white;
+} */
+
+.button {
+    padding: 0 1rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px var(--green);
+    background-color: var(--green);
+    color: var(--black);
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.button:hover,
+.input:hover {
+    filter: brightness(0.9);
+}
+
+.button:active {
+    transform: scale(1.2);
+}
